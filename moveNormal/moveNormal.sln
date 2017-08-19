@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "moveNormal", "moveNormal.csproj", "{1C10C588-8D07-5EE2-0E9F-435D7B0C745D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "moveNormal.Editor", "moveNormal.Editor.csproj", "{8EADCE8A-F187-8E65-62DC-8C2EFAFC828E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C10C588-8D07-5EE2-0E9F-435D7B0C745D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C10C588-8D07-5EE2-0E9F-435D7B0C745D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C10C588-8D07-5EE2-0E9F-435D7B0C745D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C10C588-8D07-5EE2-0E9F-435D7B0C745D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EADCE8A-F187-8E65-62DC-8C2EFAFC828E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EADCE8A-F187-8E65-62DC-8C2EFAFC828E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EADCE8A-F187-8E65-62DC-8C2EFAFC828E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EADCE8A-F187-8E65-62DC-8C2EFAFC828E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
