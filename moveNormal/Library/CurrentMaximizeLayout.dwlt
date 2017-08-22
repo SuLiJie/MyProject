@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 909, y: 421}
-  m_MaxSize: {x: 22004, y: 10000}
+  m_MinSize: {x: 917, y: 442}
+  m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 7152
+  controlID: 1664
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 661
     height: 731
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 7088
+  controlID: 1665
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,14 +179,14 @@ MonoBehaviour:
     width: 659
     height: 381
   m_SceneLighting: 0
-  lastFramingTime: 4224.357455146301
+  lastFramingTime: 2716.251290481742
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.480591, y: 0.05871582, z: 61.239746}
+    m_Target: {x: 5.602089, y: 0.21780586, z: 67.93204}
     speed: 2
-    m_Value: {x: -5.480591, y: 0.05871582, z: 61.239746}
+    m_Value: {x: 5.602089, y: 0.21780586, z: 67.93204}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -211,11 +211,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.013855847, y: -0.061200384, z: -0.00026509239, w: -0.9982467}
     speed: 2
-    m_Value: {x: -0.013852841, y: -0.061187107, z: -0.00026503488, w: -0.9980302}
+    m_Value: {x: -0.013855847, y: -0.061200384, z: -0.00026509239, w: -0.9982467}
   m_Size:
-    m_Target: 20.46649
+    m_Target: 319.09805
     speed: 2
-    m_Value: 20.46649
+    m_Value: 319.09805
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -286,8 +286,8 @@ MonoBehaviour:
     y: 402
     width: 661
     height: 329
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -311,8 +311,8 @@ MonoBehaviour:
     y: 0
     width: 245
     height: 731
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
@@ -348,26 +348,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b212fbffb412fbff7834fbff7a34fbff8ccefbff8ecefbff4a02fcff4c02fcff1c8dfcff5af7ffff1afcffff000000003c2b0000482b0000862b0000aa2b0000b62b0000
+    m_ExpandedIDs: 9aedffff9cedffff9eedffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: trackPicture(Clone)
-      m_OriginalName: trackPicture(Clone)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -274916
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Op
+  - demo
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -389,8 +389,8 @@ MonoBehaviour:
     y: 0
     width: 298
     height: 731
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 234, y: 271}
+  m_MaxSize: {x: 10004, y: 10021}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -440,7 +440,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\KanSu\Desktop\moveNormal
+  m_LastProjectPath: "C:\\Users\\KanSu\\Desktop\\GitHub \u8CC7\u6599\u5EAB\\MyProject\\moveNormal"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ce1d00008a220000b25400001e230000342200009c220000ec040000d0210000d4210000de210000da210000a222000016230000ba220000fe410000ca2300007224000084230000a6270000fa0bffff5e260000c4260000682200005a260000cc2100002e300200ce210000e0c20200202400002224000030240000c6230000c4240000282400002c240000000000002680ffffa871ffffd2280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

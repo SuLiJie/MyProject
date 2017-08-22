@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 471}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 471}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -108,10 +108,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 909, y: 421}
-  m_MaxSize: {x: 22004, y: 10000}
+  m_MinSize: {x: 917, y: 442}
+  m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 9139
+  controlID: 1762
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,10 +132,10 @@ MonoBehaviour:
     y: 0
     width: 661
     height: 731
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 9204
+  controlID: 1717
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,7 +289,7 @@ MonoBehaviour:
     y: 494
     width: 659
     height: 308
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 06000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -366,14 +366,14 @@ MonoBehaviour:
     width: 659
     height: 381
   m_SceneLighting: 0
-  lastFramingTime: 4224.357455146301
+  lastFramingTime: 3096.535484190938
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.480591, y: 0.05871582, z: 61.239746}
+    m_Target: {x: 0, y: 3, z: 0}
     speed: 2
-    m_Value: {x: -5.480591, y: 0.05871582, z: 61.239746}
+    m_Value: {x: 0, y: 3, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -398,11 +398,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.013855847, y: -0.061200384, z: -0.00026509239, w: -0.9982467}
     speed: 2
-    m_Value: {x: -0.013855847, y: -0.061200384, z: -0.00026509239, w: -0.9982467}
+    m_Value: {x: -0.013852841, y: -0.061187107, z: -0.00026503488, w: -0.9980302}
   m_Size:
-    m_Target: 20.46649
+    m_Target: 22
     speed: 2
-    m_Value: 20.46649
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -485,7 +485,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b212fbffb412fbff7834fbff7a34fbff8ccefbff8ecefbff4a02fcff4c02fcff1c8dfcff5af7ffff1afcffff000000003c2b0000482b0000862b0000aa2b0000b62b0000
+    m_ExpandedIDs: 14f7feff9aedffff9cedffff9eedffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\KanSu\Desktop\moveNormal
+  m_LastProjectPath: "C:\\Users\\KanSu\\Desktop\\GitHub \u8CC7\u6599\u5EAB\\MyProject\\moveNormal"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}

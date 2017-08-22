@@ -18,7 +18,8 @@ public class mangement : MonoBehaviour {
 	cam,
 	sound,
 	destroyer,
-	gameover;
+	gameover,
+    tunnelObj;
 	GameObject new_train, firstOne;
 	//---------Gameobject-----------------
 
@@ -54,7 +55,6 @@ public class mangement : MonoBehaviour {
     }
     void Start () {
 		pos = GameObject.Find ("start").transform.position;
-
 		bornTrain ();
 		trackModBorned = GameObject.FindGameObjectsWithTag ("trackMod");
 	}
@@ -156,6 +156,20 @@ public class mangement : MonoBehaviour {
 		if (trackModBorned.Length <4)
 			buildTrack ();
 	}
+
+    void bulidTunnel()
+    {
+        rollerCoaster.tracks = GameObject.FindGameObjectsWithTag("track");
+        int tunnelPos=Random.Range(0, rollerCoaster.tracks.Length);
+        GameObject tunnelStart;
+        while (rollerCoaster.tracks[tunnelPos].transform.parent.transform.parent.name != "trackCircle")
+        {
+            tunnelPos = Random.Range(0, rollerCoaster.tracks.Length);
+        }
+        pos=rollerCoaster.tracks[tunnelPos + 5].transform.position;//隧道出口
+        tunnelStart =Instantiate(tunnelObj, rollerCoaster.tracks[tunnelPos].transform.position, rollerCoaster.tracks[tunnelPos].transform.rotation); //隧道出口
+        tunnelStart.transform.parent = rollerCoaster.tracks[tunnelPos].transform.parent;
+    }
 
 	/*Object obj=Resources.Load("Gameobject/Cube");
 		GameObject track = Instantiate (obj) as GameObject;

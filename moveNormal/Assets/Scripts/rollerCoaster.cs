@@ -76,7 +76,7 @@ public class rollerCoaster : MonoBehaviour {
 				mangement.game_state = 2;
 			Destroy (gameObject);
 		}
-		if (tri.gameObject.name == "obstacle") {//隧道
+		if (tri.gameObject.tag == "tunnel") {//隧道
 			Destroy (gameObject);
 		}
 		if (tri.gameObject.tag == "trackDestroyer"&&gameObject.tag=="last") {
