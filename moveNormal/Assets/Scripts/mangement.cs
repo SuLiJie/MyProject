@@ -34,7 +34,8 @@ public class mangement : MonoBehaviour {
 	game_state=0;//遊戲狀態
 	int TrainCount=0,//生成順序
 	alreadyBornTrain=0,
-	alreadyBornTrack=0;
+	alreadyBornTrack=0,
+    tunnelCount=0;
 	//---------Value----------------------
 
 	//----------UI------------------------
@@ -133,6 +134,13 @@ public class mangement : MonoBehaviour {
 		GameObject newTrack;
 		trackPos=end.transform.position + new Vector3 (-1.2f, 0, 0);
 		newTrack=Instantiate (trackModStore [Random.Range(0,3)], trackPos,transform.rotation);
+        tunnelCount++;
+        if (tunnelCount >= Random.Range(6, 8)&&newTrack.name!= "trackCircle(Clone)")//當軌道生成一定數量時，建立Tunnel於新建立的軌道除了圓形軌道外上
+        {
+            bulidTunnel(newTrack.transform.GetChild(0).gameObject);
+            tunnelCount = 0;
+        }
+
 		end.name="cube";
 		alreadyBornTrack++;
 		if (alreadyBornTrack>=3) {//生成軌道數量到達N個之後，在第N-1個軌道末端生成軌道破壞
@@ -156,19 +164,17 @@ public class mangement : MonoBehaviour {
 		if (trackModBorned.Length <4)
 			buildTrack ();
 	}
-
-    void bulidTunnel()
+    /// <summary>
+    /// 隨機尋找Tunnel入口，與軌道一起生成
+    /// </summary>
+    void bulidTunnel(GameObject trackTunnel)
     {
-        rollerCoaster.tracks = GameObject.FindGameObjectsWithTag("track");
-        int tunnelPos=Random.Range(0, rollerCoaster.tracks.Length);
         GameObject tunnelStart;
-        while (rollerCoaster.tracks[tunnelPos].transform.parent.transform.parent.name != "trackCircle")
-        {
-            tunnelPos = Random.Range(0, rollerCoaster.tracks.Length);
-        }
-        pos=rollerCoaster.tracks[tunnelPos + 5].transform.position;//隧道出口
-        tunnelStart =Instantiate(tunnelObj, rollerCoaster.tracks[tunnelPos].transform.position, rollerCoaster.tracks[tunnelPos].transform.rotation); //隧道出口
-        tunnelStart.transform.parent = rollerCoaster.tracks[tunnelPos].transform.parent;
+        int tunnelPos=Random.Range(0, trackTunnel.transform.childCount);
+        Debug.Log(tunnelPos);
+        pos=trackTunnel.transform.GetChild(tunnelPos+4).transform.position;//隧道出口
+        tunnelStart =Instantiate(tunnelObj, trackTunnel.transform.GetChild(tunnelPos).transform.position+new Vector3(0,1f,0), trackTunnel.transform.GetChild(tunnelPos).transform.rotation ); //隧道入口
+        tunnelStart.transform.parent = trackTunnel.transform;
     }
 
 	/*Object obj=Resources.Load("Gameobject/Cube");
