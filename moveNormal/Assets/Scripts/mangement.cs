@@ -170,7 +170,7 @@ public class mangement : MonoBehaviour {
     void bulidTunnel(GameObject trackTunnel)
     {
         GameObject tunnelStart;
-        int tunnelPos=Random.Range(0, trackTunnel.transform.childCount);
+        int tunnelPos=Random.Range(0, trackTunnel.transform.childCount-4);
         Debug.Log(tunnelPos);
         pos=trackTunnel.transform.GetChild(tunnelPos+4).transform.position;//隧道出口
         tunnelStart =Instantiate(tunnelObj, trackTunnel.transform.GetChild(tunnelPos).transform.position+new Vector3(0,1f,0), trackTunnel.transform.GetChild(tunnelPos).transform.rotation ); //隧道入口
